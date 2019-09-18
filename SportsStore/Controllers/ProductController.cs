@@ -17,25 +17,22 @@ namespace SportsStore.Controllers
         }
 
         //defining list, and returning a View inside the views folder for Views for a file called List 
-        public ViewResult List(int productPage = 1)
-        {
-            IQueryable<Product> model = repository.Products
-                              .OrderBy(p => p.ProductID)
-                              .Skip((productPage - 1) * PageSize)
-                              .Take(PageSize);
-            return View(new ProductsListViewModel
+        public ViewResult List(string category, int productPage = 1)
+            => View(new ProductsListViewModel
             {
-                Products = model,
+                Products = repository.Products
+                    .Where(p => category == null || p.Category == category)
+                    .OrderBy(p => p.ProductID)
+                    .Skip((productPage - 1) * PageSize)
+                    .Take(PageSize),
                 PagingInfo = new PagingInfo
                 {
                     CurrentPage = productPage,
                     ItemsPerPage = PageSize,
                     TotalItems = repository.Products.Count()
-                }
+                },
+                CurrentCategory = category
             });
-        }
-
-        //(below is without pagination)
-        //public ViewResult List() => View(repository.Products);
     }
+    
 }

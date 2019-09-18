@@ -24,7 +24,7 @@ using SportsStore.Models.ViewModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"548b99030cdbcb0a0afd3c1a44cbef0ecbf72c69", @"/Views/Shared/ProductSummary.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f2d4834f869a7d79a217db938a79de8b72991f75", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"edb316ebd603a524979307e046045351a1d14636", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_ProductSummary : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Product>
     {
         #pragma warning disable 1998
