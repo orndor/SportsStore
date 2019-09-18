@@ -26,3 +26,4 @@ C:\Users\rornd\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razo
 C:\Users\rornd\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\rornd\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ProductSummary.g.cshtml.cs
 C:\Users\rornd\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\NavigationMenu\Default.g.cshtml.cs
+C:\Users\rornd\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.g.cshtml.cs

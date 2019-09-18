@@ -23,8 +23,13 @@ using SportsStore.Models.ViewModels;
 
 #line default
 #line hidden
+#line 3 "C:\Users\rornd\source\repos\SportsStore\SportsStore\Views\_ViewImports.cshtml"
+using SportsStore.Infrastructure;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7491991c3c23a857afaa46a2b888d39dca62ffa5", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"edb316ebd603a524979307e046045351a1d14636", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"878638a5d4ca19856ebdc3849ed8ffd5f45a966a", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private global::AspNetCore.Views_Shared__Layout.__Generated__NavigationMenuViewComponentTagHelper __NavigationMenuViewComponentTagHelper;
@@ -59,12 +64,12 @@ using SportsStore.Models.ViewModels;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(27, 253, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2c4a2b64e5ff4f40b6f8971aaeda971e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb4855e05bb34765a96dc204a0d34316", async() => {
                 BeginContext(33, 65, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    ");
                 EndContext();
                 BeginContext(98, 141, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "14259e6d68dc40129aa7dcf16564880f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3c825726e4ee45b390404a75cec5146f", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper>();
@@ -101,12 +106,12 @@ using SportsStore.Models.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(282, 368, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "90c2b3c8b1364765a7fd6a9089459a77", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e61df99c7c864854b86cc16e437253a5", async() => {
                 BeginContext(288, 231, true);
                 WriteLiteral("\r\n    <div class=\"navbar navbar-inverse bg-inverse\" role=\"navigation\">\r\n        <a class=\"navbar-brand\" href=\"#\">SPORTS STORE</a>\r\n    </div>\r\n    <div class=\"row m-1 p-1\">\r\n        <div id=\"categories\" class=\"col-3\">\r\n            ");
                 EndContext();
                 BeginContext(519, 22, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("vc:navigation-menu", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "560310c021cc4188a33550687ff1b794", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("vc:navigation-menu", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a2833fd23e2c4202ad84f2a18f5d47b5", async() => {
                 }
                 );
                 __NavigationMenuViewComponentTagHelper = CreateTagHelper<global::AspNetCore.Views_Shared__Layout.__Generated__NavigationMenuViewComponentTagHelper>();

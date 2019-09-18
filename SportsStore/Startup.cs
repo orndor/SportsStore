@@ -30,6 +30,8 @@ namespace SportsStore
                     Configuration["Data:SportsStoreProducts:ConnectionString"]));
             services.AddTransient<IProductRepository, EFProductRepository>();
             services.AddMvc();
+            services.AddMemoryCache();
+            services.AddSession();
 
             //if the user for a product repository, give them a fake one until we get an actual database
             //services.AddTransient<IProductRepository, FakeProductRepository>();
@@ -46,6 +48,7 @@ namespace SportsStore
             }
             app.UseStatusCodePages();
             app.UseStaticFiles();
+            app.UseSession();
 
             //given that we have MVC, use it and setup routes.
             app.UseMvc(routes =>
